@@ -1,0 +1,133 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header{
+  position: relative;
+  height: 145px;
+}
+
+nav{
+  position: absolute;
+  left: 30px;
+}
+
+
+
+
+h1{ /*Selectores de etiqueta*/
+   color:rgb(0, 47, 255);
+   text-align: center;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   
+   
+}
+
+.parrafo_color{ /*Selectores de Clases*/
+ color: cyan;
+ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h2{ /*Selectores de etiqueta*/
+ color: gold;
+ text-align: center;
+ 
+
+}
+
+.roboto-thin { /*Fondo del texto*/
+ font-family: "Roboto", sans-serif;
+font-weight: 100;
+ font-style: normal;}
+
+ body{ /*Imagen del Fondo*/
+   background-image: url(../img/7200.jpg);
+ }
+
+ 
+ .card { /*Carta con una Imagen*/
+  width: 800px;
+  border: 4px solid;
+  background-color: rgb(100, 96, 109);
+  text-align: center;
+  margin: auto;
+  padding: 10px;}             
+
+  img {
+  max-width: 100%;
+ }
+
+ section{
+  margin: 25px;
+ }
+
+.Seleccion de Paginas{
+text-align: center;
+
+
+}
+
+nav a{
+  color: white;
+  text-decoration: none;
+  font-size: 24px;
+  
+  
+
+}
+
+nav a:hover {
+  color:blue;
+  text-decoration: wavy;
+}
+
+
+
+
+
+.contenedor_limite {
+    max-width: 1200px;
+    margin: 0 auto;
+    
+}
+
+.contenedor_padre{
+  justify-content: space-evenly;
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+@media screen and (max-width:600px){
+    
+    header{
+        background-color:red;
+        position: relative;
+        height: 160px;
+    }
+ 
+    nav{
+        position: absolute;
+        left: 10px;
+        top: 80px;
+       
+    }
+
+    nav li {
+        display: block;
+    }
+   
+    
+  
+
+  
+
+   
+}
+  
+  
+ 
+
+
+
